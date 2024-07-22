@@ -1,0 +1,32 @@
+{
+  "name": "papsonboy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "dev": "NODE_ENV=development nodemon app.js",
+    "html2pug": "html2pug < html2pug.html > html2pug.pug -f"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "html2pug": "^4.0.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.3.1",
+    "minimist": "^1.2.8",
+    "postman-request": "^2.88.1-postman.34",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.3",
+    "serve-favicon": "^2.5.0",
+    "yargs": "^17.7.2"
+  },
+  "description": ""
+}
