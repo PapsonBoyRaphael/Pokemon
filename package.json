@@ -1,32 +1,25 @@
 {
-  "name": "papsonboy",
+  "name": "express-api-rest",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "express-api-rest",
+  "main": "app.js",
   "scripts": {
     "start": "NODE_ENV=production node app.js",
-    "dev": "NODE_ENV=development nodemon app.js",
-    "html2pug": "html2pug < html2pug.html > html2pug.pug -f"
+    "dev": "NODE_ENV=development nodemon app.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "chalk": "^4.1.2",
-    "html2pug": "^4.0.0",
-    "nodemon": "^3.1.4"
-  },
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mariadb": "^3.3.1",
-    "minimist": "^1.2.8",
-    "postman-request": "^2.88.1-postman.34",
-    "pug": "^3.0.3",
-    "sequelize": "^6.37.3",
-    "serve-favicon": "^2.5.0",
-    "yargs": "^17.7.2"
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.4.2",
+    "sequelize": "^6.3.5",
+    "serve-favicon": "^2.5.0"
   },
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
